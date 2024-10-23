@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "gbs";
+  src: url(/fonts/PlaywriteGBS-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "Robot";
+  src: url(/fonts/Roboto-Italic.ttf);
+}
+
 .city {
   font-size: 30px;
   background-color: tomato;
@@ -5,9 +15,36 @@
   border: 2px solid black;
   margin: 20px;
   padding: 20px;
+  font-family: "gbs";
 }
 .lorem {
   color: blueviolet;
   font-size: 30px;
   line-height: 2em;
+  text-align: start;
+  width: 100%;
+  height: 75%;
+  padding-left: 10px;
+  font-family: "roboto";
+}
+
+h1 {
+  font-size: 55px;
+  color: rgb(241, 143, 51);
+  text-align: center;
+}
+
+#btn-1 {
+  text-transform: uppercase;
+}
+
+#btn-2 {
+  text-transform: lowercase;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 40px;
 }
