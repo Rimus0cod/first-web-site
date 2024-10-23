@@ -1,24 +1,8 @@
-h1,
-h2,
-h3 {
-  font-size: 100px;
-  background-color: aquamarine;
 
-  p {
-    color: #4964dbc2;
-    /* font-size: 30pt; */
-    font-size: 50px;
-  }
-
-  #heading {
-    color: blueviolet;
-    font-size: 50px;
-  }
-
-  .green {
-    color: green;
-  }
-  .font-size-large {
-    font-size: 90px;
-  }
+.city {
+  background-color: tomato;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
 }
