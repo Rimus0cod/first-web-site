@@ -74,8 +74,21 @@ h2 {
 }
 
 .page-link:focus {
-  border: solid rgb(255, 122, 122) 5px;
+  border:rgb(0, 0, 0) 5px;
   color: rgb(0, 0, 0);  
+}
+
+.page-link:active {
+  color: rgb(4, 0, 255);
+}
+
+input:focus {
+  background-color: azure;
+}
+
+input {
+  color: aliceblue;
+  border-radius: 55px;
 }
 
 .img1 {
