@@ -42,3 +42,8 @@
 .page-link:active {
   color: rgb(4, 0, 255);
 }
+
+#btn-1 {
+  text-transform: uppercase;
+  margin-top: 10px;
+}
