@@ -54,11 +54,28 @@ h2 {
   text-transform: lowercase;
 }
 
-a {
+.link-list li {
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.page-link {
   text-decoration: none;
-  color: blueviolet;
-  font-weight: bold;
-  font-size: 40px;
+  color: rgb(0, 27, 114);
+  font-size: 30px;
+  background-color: rgba(194, 194, 212, 0.616);
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.page-link:hover {
+  color: rgb(194, 0, 136);
+  background-color: lightblue;
+}
+
+.page-link:focus {
+  border: solid rgb(255, 122, 122) 5px;
+  color: rgb(0, 0, 0);  
 }
 
 .img1 {
@@ -98,7 +115,8 @@ table {
   border-collapse: collapse;
 }
 
-td, th {
+td,
+th {
   border: solid black 1px;
 }
 
