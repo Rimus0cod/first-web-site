@@ -13,7 +13,7 @@
   background-color: tomato;
   color: white;
   border: 2px solid black;
-  margin: 10px;
+  margin: 20px;
   padding: 10px;
   font-family: "gbs";
 }
@@ -22,10 +22,11 @@
   font-size: 25px;
   line-height: 2em;
   text-align: justify;
-  width: 100%;
-  height: 75%;
-  padding-left: 10px;
   font-family: "roboto";
+  box-sizing: border-box;
+  border: 3px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 h1 {
@@ -46,6 +47,7 @@ h2 {
 
 #btn-1 {
   text-transform: uppercase;
+  margin-top: 10px;
 }
 
 #btn-2 {
@@ -65,6 +67,9 @@ a {
   box-sizing: border-box;
   padding: 6px 3px;
   background-color: rgb(255, 255, 255);
+  margin-left: 5px;
+  border-radius: 60px;
+  margin: 0auto;
 }
 .img2 {
   width: 300px;
@@ -72,6 +77,9 @@ a {
   box-sizing: border-box;
   padding: 6px 3px;
   background-color: rgb(255, 255, 255);
+  margin-left: 5px;
+  border-radius: 60px;
+  margin: 0auto;
 }
 .img3 {
   width: 330px;
@@ -79,4 +87,21 @@ a {
   box-sizing: border-box;
   padding: 6px 3px;
   background-color: rgb(255, 255, 255);
+  margin-left: 5px;
+  border-radius: 60px;
+  margin: 0auto;
+}
+
+table {
+  font-size: 25px;
+  border: solid black 3px;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: solid black 1px;
+}
+
+.caption {
+  color: red;
 }
