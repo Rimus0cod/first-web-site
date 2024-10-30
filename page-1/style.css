@@ -183,3 +183,67 @@ th {
 }
 
 /* Всплывающий банер */
+
+/* Флекс контейнер */
+
+.conteiner {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: flex-start;
+  height: 60px;
+  flex-wrap: wrap;
+  align-content: center;
+  margin-top: 15px;
+}
+
+.items {
+  border: 3px solid red;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(0, 255, 200);
+  text-align: center;
+}
+
+/* Карточка */
+
+.card-conteiner {
+  border: 3px solid black;
+  box-sizing: border-box;
+  width: 35vw;
+  height: 80vh;
+  margin-top: 15px;
+}
+
+.card-header {
+  height: 40%;
+  width: 100%;
+  background-image: url("./picrtures/japan_tokyo_akihabara_AdobeStock_295310062_Editorial_Use_Only.webp");
+  background-size: cover;
+}
+
+.card {
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  height: 50%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: -20%;
+}
+
+.About-User {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  justify-content: space-around;
+}
