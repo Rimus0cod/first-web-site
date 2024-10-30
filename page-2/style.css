@@ -7,6 +7,9 @@
   font-family: "Robot";
   src: url(/fonts/Roboto-Italic.ttf);
 }
+
+/* Параграфы и текст */
+
 .header {
   text-transform: uppercase;
   font-size: 45px;
@@ -14,6 +17,7 @@
   color: rgb(108, 119, 179);
   text-align: center;
 }
+
 .variants {
   font-size: 20px;
   background-color: rgb(140, 98, 255);
@@ -23,6 +27,8 @@
   padding: 10px;
   font-family: "gbs";
 }
+
+/* Навигация */
 
 .nav-list {
   margin: 0;
@@ -53,6 +59,8 @@
   display: block;
 }
 
+/* Ссылки */
+
 .page-link {
   text-decoration: none;
   color: rgb(0, 27, 114);
@@ -75,6 +83,8 @@
 .page-link:active {
   color: rgb(4, 0, 255);
 }
+
+/* Кнопки */
 
 #btn-1 {
   text-transform: uppercase;

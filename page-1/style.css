@@ -8,6 +8,8 @@
   src: url(/fonts/Roboto-Italic.ttf);
 }
 
+/* Параграфы и всё с текстом */
+
 .city {
   font-size: 20px;
   background-color: tomato;
@@ -59,8 +61,10 @@ p::before {
 }
 
 p::first-line {
-  background-color: rgba(180, 58, 228, 0.295) ;
+  background-color: rgba(180, 58, 228, 0.295);
 }
+
+/* Кнопки */
 
 #btn-1 {
   text-transform: uppercase;
@@ -70,6 +74,8 @@ p::first-line {
 #btn-2 {
   text-transform: lowercase;
 }
+
+/* Навигация */
 
 .nav-list {
   margin: 0;
@@ -100,6 +106,8 @@ p::first-line {
   display: block;
 }
 
+/* Ссылки */
+
 .page-link {
   text-decoration: none;
   color: rgb(0, 27, 114);
@@ -122,6 +130,8 @@ p::first-line {
 .page-link:active {
   color: rgb(4, 0, 255);
 }
+
+/* Картинки */
 
 .img1 {
   width: 300px;
@@ -153,6 +163,8 @@ p::first-line {
   border-radius: 60px;
   margin: 0auto;
 }
+
+/* Таблицы */
 
 table {
   font-size: 25px;
