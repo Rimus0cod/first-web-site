@@ -47,20 +47,20 @@ h2 {
   text-align: center;
 }
 
-p::after {
+.lorem::after {
   color: rgb(255, 0, 0);
   height: 100px;
   width: 100px;
   content: "‶";
 }
-p::before {
+.lorem::before {
   color: rgb(255, 0, 0);
   height: 100px;
   width: 100px;
   content: "‶";
 }
 
-p::first-line {
+.lorem::first-line {
   background-color: rgba(180, 58, 228, 0.295);
 }
 
@@ -78,6 +78,7 @@ p::first-line {
 /* Навигация */
 
 .nav-list {
+  display: flex;
   margin: 0;
   padding: 0;
   font-size: 0;
@@ -85,7 +86,7 @@ p::first-line {
 
 .list-item {
   position: relative;
-  display: inline-block;
+  display: flex;
   padding: 20px;
 }
 
@@ -96,8 +97,8 @@ p::first-line {
 
 .sub-nav-list {
   position: absolute;
-  top: 62px;
-  left: -15px;
+  top: 65px;
+  left: -40px;
   display: block;
   width: 150px;
 }
@@ -180,3 +181,5 @@ th {
 .caption {
   color: red;
 }
+
+/* Всплывающий банер */
