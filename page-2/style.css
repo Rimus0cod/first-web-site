@@ -24,9 +24,33 @@
   font-family: "gbs";
 }
 
-.link-list li {
+.nav-list {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
+.list-item {
+  position: relative;
   display: inline-block;
-  margin-top: 15px;
+  padding: 20px;
+}
+
+.sub-list-item {
+  display: none;
+  padding: 20px;
+}
+
+.sub-nav-list {
+  position: absolute;
+  top: 62px;
+  left: -15px;
+  display: block;
+  width: 150px;
+}
+
+.list-item:hover .sub-list-item {
+  display: block;
 }
 
 .page-link {
