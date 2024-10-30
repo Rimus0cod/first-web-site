@@ -45,6 +45,23 @@ h2 {
   text-align: center;
 }
 
+p::after {
+  color: rgb(255, 0, 0);
+  height: 100px;
+  width: 100px;
+  content: "‶";
+}
+p::before {
+  color: rgb(255, 0, 0);
+  height: 100px;
+  width: 100px;
+  content: "‶";
+}
+
+p::first-line {
+  background-color: rgba(180, 58, 228, 0.295) ;
+}
+
 #btn-1 {
   text-transform: uppercase;
   margin-top: 10px;
