@@ -67,18 +67,18 @@ h2 {
 /* Личный кабинет типо */
 
 .user {
-  border-radius: 50px;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  justify-content: end;
 }
 
-.user-img1 {
-  width: 100px;
-  height: 100px;
-  border-radius: 80%;
-  object-fit: cover;
-  margin-left: 1750px;
+.user-url {
+  position: relative;
+  display: inline-block;
+  padding: 20px;
 }
-
-
 
 /* Кнопки */
 
@@ -199,8 +199,6 @@ th {
 }
 
 /* Всплывающий банер */
-
-
 
 /* Карточка */
 
