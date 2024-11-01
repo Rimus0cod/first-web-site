@@ -64,6 +64,22 @@ h2 {
   background-color: rgba(180, 58, 228, 0.295);
 }
 
+/* Личный кабинет типо */
+
+.user {
+  border-radius: 50px;
+}
+
+.user-img1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 80%;
+  object-fit: cover;
+  margin-left: 1750px;
+}
+
+
+
 /* Кнопки */
 
 #btn-1 {
