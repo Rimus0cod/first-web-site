@@ -36,23 +36,21 @@
         <hr />
 
         <label for="email"><b>Email</b></label>
-        <input type="text" placeholder="Enter Email" name="email" required />
+        <input type="text" placeholder="Enter Email" name="email" required pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+"/>
 
         <label for="psw"><b>Password</b></label>
         <input
           type="password"
           placeholder="Enter Password"
-          name="psw"
-          required
-        />
+          name="psw" pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$ %^&*-]).{8,}$"
+          required/>
 
         <label for="psw-repeat"><b>Repeat Password</b></label>
         <input
           type="password"
           placeholder="Repeat Password"
           name="psw-repeat"
-          required
-        />
+          required/>
         <hr />
 
         <p>
