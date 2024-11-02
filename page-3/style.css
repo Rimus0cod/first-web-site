@@ -104,6 +104,13 @@
   border: 2px solid orange;
 }
 
+.card-img1 {
+  width: 180px;
+  height: 130px;
+  padding-top: 10px;
+  border-radius: 5px;
+}
+
 .card-img {
   width: 180px;
   height: 130px;
