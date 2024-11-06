@@ -4,81 +4,82 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Forma</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <h1>Форма для зворотньго звязку</h1>
-    <fieldset><legend>Особисті дані</legend>
-    <label>
-      Ім'я
-      <input type="text" name="name" required />
-    </label>
-    <label>
-      email
-      <input type="email" name="email" required />
-    </label>
-    <label>
-      Ім'я
-      <input type="text" name="name" required />
-    </label>
-    <label>
-      Дата народження
-      <input type="date" name="date" required />
-    </label>
-</fieldset>
-    <fieldset>
-      <legend>Стать</legend>
-      <label><input type="radio" name="gender" value="male" /></label>
-      Чоловік
-      <label><input type="radio" name="gender" value="female" /></label>
-      Жінка
-      <label><input type="radio" name="gender" value="bionary" /></label>
-      Небінарна особа
-    </fieldset>
 
-    <fieldset>
-      <legend>Додаткові Налаштування</legend>
-      <label>
-        <input type="checkbox" name="is-subscribe" value="true" />
-        Підписатися на розсилку
-      </label>
-    </fieldset>
+    <form class="for">
+      <fieldset>
+        <legend>Особисті дані</legend>
+        <label>
+          Ім'я
+          <input type="text" name="name" required />
+        </label>
+        <label>
+          email
+          <input type="email" name="email" required />
+        </label>
+        <label>
+          Дата народження
+          <input type="date" name="date" required />
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Стать</legend>
+        <label><input type="radio" name="gender" value="male" />Чоловік</label>
+        <label><input type="radio" name="gender" value="female" />Жінка</label>
+        <label
+          ><input type="radio" name="gender" value="bionary" />Небінарна
+          особа</label
+        >
+      </fieldset>
 
-    <fieldset>
-      <legend>Оберіть котегорію своїх інтересів</legend>
-      <select name="category">
-        <optgroup label="Технології">
-          <option value="programming">Програмування</option>
-          <option value="networks">Мережі</option>
-        </optgroup>
-        <optgroup label="Музика">
-          <option value="rok">Рок</option>
-          <option value="pop">Поп</option>
-        </optgroup>
+      <fieldset>
+        <legend>Додаткові Налаштування</legend>
+        <label>
+          <input type="checkbox" name="is-subscribe" value="true" />
+          Підписатися на розсилку
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Оберіть котегорію своїх інтересів</legend>
+        <select name="category">
+          <optgroup label="Технології">
+            <option value="programming">Програмування</option>
+            <option value="networks">Мережі</option>
+          </optgroup>
+          <optgroup label="Музика">
+            <option value="rok">Рок</option>
+            <option value="pop">Поп</option>
+          </optgroup>
         </select>
+      </fieldset>
 
-        <fieldset>
-          <legend>Як ви дізналися про нас</legend>
-          <label>
-            <input type="radio" name="option" value="search-systems" />
-            Пошукові системи</label
-          >
+      <fieldset>
+        <legend>Як ви дізналися про нас</legend>
+        <label>
+          <input type="radio" name="option" value="search-systems" />
+          Пошукові системи</label
+        >
 
-          <label>
-            <input type="radio" name="option" value="social-networks" />
-            Соціальні мережі</label
-          >
+        <label>
+          <input type="radio" name="option" value="social-networks" />
+          Соціальні мережі</label
+        >
 
-          <label>
-            <input type="radio" name="option" value="Friends" />
-            Порада друзів/знайомих</label
-          >
-          </fieldset>
+        <label>
+          <input type="radio" name="option" value="Friends" />
+          Порада друзів/знайомих</label
+        >
+      </fieldset>
 
-          <fieldset>
-            <legend>Опишіть свої враження / скарги  / Пропозиції</legend>
-            <textarea name="comment"></textarea>
-          </fieldset>
-          
-          <button type="submit">Надіслати форму</button>
+      <fieldset>
+        <legend>Опишіть свої враження / скарги / Пропозиції</legend>
+        <textarea name="comment"></textarea>
+      </fieldset>
+      <button type="submit">Надіслати форму</button>
+    </form>
   </body>
 </html>
