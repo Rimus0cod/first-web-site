@@ -125,6 +125,14 @@ h2 {
 
 /* Ссылки */
 
+.form {
+  text-decoration: none;
+  color: black;
+  font-size: 40px;
+  border-radius: 20px;
+  background-color: rgba(194, 194, 212, 0.616);
+}
+
 .page-link {
   text-decoration: none;
   color: rgb(0, 27, 114);

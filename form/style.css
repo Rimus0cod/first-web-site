@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Shantel";
+  src: url(/fonts/ShantellSans-Italic-VariableFont_BNCE\,INFM\,SPAC\,wght.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: "Shantel";
+}
+
+.h1 {
+    text-align: center;
+}

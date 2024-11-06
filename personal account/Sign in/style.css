@@ -1,10 +1,13 @@
-* {box-sizing: border-box}
+* {
+  box-sizing: border-box;
+}
 
 .container {
   padding: 16px;
 }
 
-input[type=text], input[type=password] {
+input[type="text"],
+input[type="password"] {
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -13,11 +16,11 @@ input[type=text], input[type=password] {
   background: #f1f1f1;
 }
 
-input[type=text]:focus, input[type=password]:focus {
+input[type="text"]:focus,
+input[type="password"]:focus {
   background-color: #ddd;
   outline: none;
 }
-
 
 hr {
   border: 1px solid #f1f1f1;
@@ -36,7 +39,7 @@ hr {
 }
 
 .registerbtn:hover {
-  opacity:1;
+  opacity: 1;
 }
 
 a {
@@ -49,68 +52,68 @@ a {
 }
 
 .nav-list {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    font-size: 0;
-    justify-content: center;
-  }
-  
-  .list-item {
-    position: relative;
-    display: inline-block;
-    padding: 20px;
-  }
-  .sub-list-item {
-    display: none;
-    padding: 10px;
-  }
-  
-  .sub-nav-list {
-    position: absolute;
-    top: 65px;
-    left: -30px;
-    display: block;
-    width: 150px;
-  }
-  
-  .list-item:hover .sub-list-item {
-    display: block;
-  }
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  justify-content: center;
+}
 
-  .page-link {
-    text-decoration: none;
-    color: rgb(0, 27, 114);
-    font-size: 30px;
-    background-color: rgba(194, 194, 212, 0.616);
-    padding: 10px;
-    border-radius: 50px;
-  }
-  
-  .page-link:hover {
-    color: rgb(194, 0, 136);
-    background-color: lightblue;
-  }
-  
-  .page-link:focus {
-    border: rgb(0, 0, 0) 5px;
-    color: rgb(0, 0, 0);
-  }
-  
-  .page-link:active {
-    color: rgb(4, 0, 255);
-  }
-  
-  .user {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    font-size: 0;
-    justify-content: end;
-  }
-  
-  .user-url {
-    position: relative;
-    display: inline-block;
-    padding: 20px;
-  }
+.list-item {
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+}
+.sub-list-item {
+  display: none;
+  padding: 10px;
+}
+
+.sub-nav-list {
+  position: absolute;
+  top: 65px;
+  left: -30px;
+  display: block;
+  width: 150px;
+}
+
+.list-item:hover .sub-list-item {
+  display: block;
+}
+
+.page-link {
+  text-decoration: none;
+  color: rgb(0, 27, 114);
+  font-size: 30px;
+  background-color: rgba(194, 194, 212, 0.616);
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.page-link:hover {
+  color: rgb(194, 0, 136);
+  background-color: lightblue;
+}
+
+.page-link:focus {
+  border: rgb(0, 0, 0) 5px;
+  color: rgb(0, 0, 0);
+}
+
+.page-link:active {
+  color: rgb(4, 0, 255);
+}
+
+.user {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  justify-content: end;
+}
+
+.user-url {
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+}
