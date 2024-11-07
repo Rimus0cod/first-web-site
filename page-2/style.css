@@ -18,7 +18,50 @@
   text-align: center;
 }
 
-.variants {
+h2 {
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 1.5em;
+  color: rgb(108, 119, 179);
+  text-align: center;
+}
+
+.img {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.img1 {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.players {
+  font-size: 20px;
+  background-color: rgb(218, 208, 247);
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 10px;
+  font-family: "gbs";
+}
+
+sostav {
+  
+}
+
+.ulka {
+  
+ }
+
+
+.history {
+}
+ 
+.history-team {
   font-size: 20px;
   background-color: rgb(140, 98, 255);
   color: white;
