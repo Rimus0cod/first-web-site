@@ -30,31 +30,36 @@
 
 /* Навигация */
 
-.nav-list {
-  display: flex;
-  margin: 0;
-  padding: 0;
+.nav {
   font-size: 0;
-  justify-content: center;
+  background-color: grey;
 }
 
-.list-item {
-  position: relative;
-  display: inline-block;
-  padding: 20px;
-}
-.sub-list-item {
-  display: none;
-  padding: 10px;
-}
-
-.sub-nav-list {
-  position: absolute;
-  top: 65px;
-  left: -30px;
-  display: block;
-  width: 150px;
-}
+.nav-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    justify-content: start;
+  }
+  
+  .list-item {
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+  }
+  .sub-list-item {
+    display: none;
+    padding: 10px;
+  }
+  
+  .sub-nav-list {
+    position: absolute;
+    top: 65px;
+    left: -30px;
+    display: block;
+    width: 150px;
+  }
 
 .list-item:hover .sub-list-item {
   display: block;
@@ -80,11 +85,11 @@
 
 .page-link {
   text-decoration: none;
-  color: rgb(0, 27, 114);
-  font-size: 30px;
-  background-color: rgba(194, 194, 212, 0.616);
+  color: rgb(255, 255, 255);
+  background-color: grey;
+  font-size: 25px;
   padding: 10px;
-  border-radius: 50px;
+  border-radius: 5px;
 }
 
 .page-link:hover {

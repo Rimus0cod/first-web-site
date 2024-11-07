@@ -80,11 +80,11 @@ a {
 
   .page-link {
     text-decoration: none;
-    color: rgb(0, 27, 114);
-    font-size: 30px;
-    background-color: rgba(194, 194, 212, 0.616);
+    color: rgb(255, 255, 255);
+    background-color: grey;
+    font-size: 25px;
     padding: 10px;
-    border-radius: 50px;
+    border-radius: 5px;
   }
   
   .page-link:hover {
