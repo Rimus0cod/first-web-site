@@ -1,0 +1,158 @@
+@font-face {
+  font-family: "gbs";
+  src: url(/fonts/PlaywriteGBS-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "Robot";
+  src: url(/fonts/Roboto-Italic.ttf);
+}
+
+/* Параграфы и текст */
+
+.header {
+  text-transform: uppercase;
+  font-size: 45px;
+  line-height: 1.5em;
+  color: rgb(108, 119, 179);
+  text-align: center;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 1.5em;
+  color: rgb(108, 119, 179);
+  text-align: center;
+}
+
+.img {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.img1 {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.players {
+  font-size: 20px;
+  background-color: rgb(218, 208, 247);
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 10px;
+  font-family: "gbs";
+}
+
+sostav {
+  
+}
+
+.ulka {
+  
+ }
+
+
+.history {
+}
+ 
+.history-team {
+  font-size: 20px;
+  background-color: rgb(140, 98, 255);
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 10px;
+  font-family: "gbs";
+}
+
+/* Навигация */
+
+.nav {
+  font-size: 0;
+  background-color: grey;
+}
+
+.nav-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  margin-left: 4%;
+  justify-content: start;
+}
+  
+  .list-item {
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+  }
+  .sub-list-item {
+    display: none;
+    padding: 10px;
+  }
+  
+  .sub-nav-list {
+    position: absolute;
+    top: 65px;
+    left: -30px;
+    display: block;
+    width: 150px;
+  }
+
+.list-item:hover .sub-list-item {
+  display: block;
+}
+
+/* Личный кабинет типо */
+
+.user {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  justify-content: end;
+}
+
+.user-url {
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+}
+
+/* Ссылки */
+
+.page-link {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: grey;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.page-link:hover {
+  color: rgb(194, 0, 136);
+  background-color: lightblue;
+}
+
+.page-link:focus {
+  border: rgb(0, 0, 0) 5px;
+  color: rgb(0, 0, 0);
+}
+
+.page-link:active {
+  color: rgb(4, 0, 255);
+}
+
+/* Кнопки */
+
+#btn-1 {
+  text-transform: uppercase;
+  margin-top: 10px;
+}

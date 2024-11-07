@@ -1,0 +1,257 @@
+@font-face {
+  font-family: "gbs";
+  src: url(/fonts/PlaywriteGBS-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "Robot";
+  src: url(/fonts/Roboto-Italic.ttf);
+}
+
+/* Параграфы и всё с текстом */
+
+.city {
+  font-size: 20px;
+  background-color: tomato;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 10px;
+  font-family: "gbs";
+}
+.lorem {
+  color: blueviolet;
+  font-size: 25px;
+  line-height: 2em;
+  text-align: justify;
+  font-family: "roboto";
+  box-sizing: border-box;
+  border: 3px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 45px;
+  line-height: 1.5em;
+  color: rgb(241, 143, 51);
+  text-align: center;
+}
+
+h2 {
+  text-transform: uppercase;
+  line-height: 1.5em;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.lorem::after {
+  color: rgb(255, 0, 0);
+  height: 100px;
+  width: 100px;
+  content: "‶";
+}
+.lorem::before {
+  color: rgb(255, 0, 0);
+  height: 100px;
+  width: 100px;
+  content: "‶";
+}
+
+.lorem::first-line {
+  background-color: rgba(180, 58, 228, 0.295);
+}
+
+/* Личный кабинет типо */
+
+.user {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  justify-content: end;
+}
+
+.user-url {
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+}
+
+/* Кнопки */
+
+#btn-1 {
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+#btn-2 {
+  text-transform: lowercase;
+}
+
+/* Навигация */
+
+.nav {
+  font-size: 0;
+  background-color: grey;
+}
+
+.nav-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  margin-left: 4%;
+  justify-content: start;
+}
+  
+  .list-item {
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+  }
+  .sub-list-item {
+    display: none;
+    padding: 10px;
+  }
+  
+  .sub-nav-list {
+    position: absolute;
+    top: 65px;
+    left: -30px;
+    display: block;
+    width: 150px;
+  }
+  
+  .list-item:hover .sub-list-item {
+    display: block;
+  }
+
+/* Ссылки */
+
+.form {
+  text-decoration: none;
+  color: black;
+  font-size: 40px;
+  border-radius: 20px;
+  background-color: rgba(194, 194, 212, 0.616);
+}
+
+.page-link {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: grey;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.page-link:hover {
+  color: rgb(194, 0, 136);
+  background-color: lightblue;
+}
+
+.page-link:focus {
+  border: rgb(0, 0, 0) 5px;
+  color: rgb(0, 0, 0);
+}
+
+.page-link:active {
+  color: rgb(4, 0, 255);
+}
+
+/* Картинки */
+
+.img1 {
+  width: 300px;
+  border: 3px solid rgb(255, 255, 255);
+  box-sizing: border-box;
+  padding: 6px 3px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 5px;
+  border-radius: 60px;
+  margin: 0auto;
+}
+.img2 {
+  width: 300px;
+  border: 3px solid rgb(255, 255, 255);
+  box-sizing: border-box;
+  padding: 6px 3px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 5px;
+  border-radius: 60px;
+  margin: 0auto;
+}
+.img3 {
+  width: 330px;
+  border: 3px solid rgb(255, 255, 255);
+  box-sizing: border-box;
+  padding: 6px 3px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 5px;
+  border-radius: 60px;
+  margin: 0auto;
+}
+
+/* Таблицы */
+
+table {
+  font-size: 25px;
+  border: solid black 3px;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: solid black 1px;
+}
+
+.caption {
+  color: red;
+}
+
+/* Всплывающий банер */
+
+/* Карточка */
+
+.card-conteiner {
+  border: 3px solid black;
+  box-sizing: border-box;
+  width: 35vw;
+  height: 80vh;
+  margin-top: 15px;
+}
+
+.card-header {
+  height: 40%;
+  width: 100%;
+  background-image: url("./picrtures/japan_tokyo_akihabara_AdobeStock_295310062_Editorial_Use_Only.webp");
+  background-size: cover;
+}
+
+.card {
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  height: 50%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: -20%;
+}
+
+.About-User {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  justify-content: space-around;
+}
