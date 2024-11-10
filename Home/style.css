@@ -1,13 +1,13 @@
 * {
   margin: 0;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
   min-height: 100vh;
-  background: url('/City/picrtures/bacl.jpg') no-repeat;
+  background: url("/City/picrtures/bacl.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -43,17 +43,132 @@ body {
 }
 
 .navbar a::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 100%;
   left: 0;
   width: 100%;
   height: 2px;
   background: white;
-  
 }
 
 .navbar a::before:hover {
   width: 100%;
   transition: 0.3s;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  padding: 50px 100px 0;
+  color: #fff;
+  gap: 80px;
+}
+
+.info h1 {
+  font-size: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+.info p {
+  margin: 10px 0 25px;
+  font-weight: 500;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px 50px;
+  background-color: white;
+  border-radius: 40px;
+  box-shadow: inset;
+  color: #333;
+  font-weight: 600;
+}
+
+.login-box {
+  width: 450px;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(30px);
+  border-radius: 10px;
+  padding: 50px 40px;
+  box-shadow: #333;
+}
+
+.login-box h1 {
+  font-size: 36px;
+  text-align: center;
+  line-height: 1;
+}
+
+.login-box .input-box {
+  margin: 30px 0;
+  position: relative;
+}
+
+.login-box .input-box input {
+  width: 100%;
+  background-color: transparent;
+  border: 2px solid #fff;
+  outline: none;
+  border-radius: 40px;
+  padding: 13px 50px 13px 20px;
+  font-size: 16px;
+}
+
+.login-box .input-box input ::placeholder {
+  color: #fff;
+}
+
+.login-box .input-box i {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+.login-box .remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin: -15px 0 15px;
+}
+
+.login-box .remember-forgot label {
+  display: flex;
+}
+
+.login-box .remember-forgot input {
+  accent-color: #fff;
+  margin-right: 6px;
+}
+
+.login-box .remember-forgot a:hover,
+.login-box .register-link a:hover {
+  text-decoration: underline;
+}
+
+.login-box .btn {
+  width: 100%;
+  border: none;
+  cursor: pointer;
+}
+
+.login-box .register-link {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  margin: 15px;
+}
+
+.login-box .register-link a {
+  font-weight: 600;
+  margin-left: 4px;
 }
