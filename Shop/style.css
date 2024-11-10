@@ -7,7 +7,7 @@
 
 body {
   min-height: 100vh;
-  background: url("/City/picrtures/bacl.jpg") no-repeat;
+  background: url("./picrtures/bacl.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -81,6 +81,7 @@ body {
 
 .header1 {
   text-transform: uppercase;
+  margin-top: 10vh;
   font-size: 45px;
   line-height: 1.5em;
   color: rgb(108, 119, 179);
