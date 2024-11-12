@@ -19,6 +19,7 @@ nextBtn.onclick = () => {
     slides[slideNumber].classList.add('active');
 }
 
+//slider pre-btn
 prevBtn.onclick = () => {
     slides.forEach((slide) => {
         slide.classList.remove('active')

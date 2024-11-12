@@ -47,14 +47,14 @@ body {
   position: absolute;
   top: 100%;
   left: 0;
-  width: 100%;
+  width: 0;
   height: 2px;
   background: white;
+  transition: .3s;
 }
 
-.navbar a::before:hover {
+.navbar a:hover::before  {
   width: 100%;
-  transition: 0.3s;
 }
 
 .content {
