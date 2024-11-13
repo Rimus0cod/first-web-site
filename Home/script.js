@@ -9,3 +9,13 @@ registerBtn.addEventListener('click', () => {
 loginBtn.addEventListener('click', () => {
     container.classList.remove('active');
 });
+
+function loader() {
+    document.querySelector('.loader-conteiner').classList.add('active')
+}
+
+function fadeOut() {
+    setTimeout(loader, 1000)
+}
+
+fadeOut();
