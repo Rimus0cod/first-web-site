@@ -1,9 +1,8 @@
-function loader() {
-    document.querySelector('.loader-conteiner').classList.add('active')
-}
+let loader = document.querySelector('.loader-conteiner');
 
-function fadeOut() {
-    setTimeout(loader, 1200)
-}
-
-fadeOut();  
+window.addEventListener('load', () => {
+    loader.classList.add('active');
+    setTimeout(() => {
+        loader.remove
+    }, 300);
+});

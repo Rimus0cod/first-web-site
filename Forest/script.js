@@ -33,13 +33,12 @@ prevBtn.onclick = () => {
 
     slides[slideNumber].classList.add('active');
 }
+    
+let loader = document.querySelector('.loader-conteiner');
 
-function loader() {
-    document.querySelector('.loader-conteiner').classList.add('active')
-}
-
-function fadeOut() {
-    setTimeout(loader, 3000)
-}
-
-fadeOut();
+window.addEventListener('load', () => {
+    loader.classList.add('active');
+    setTimeout(() => {
+        loader.remove
+    }, 300);
+});

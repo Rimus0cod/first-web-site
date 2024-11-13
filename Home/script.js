@@ -10,12 +10,11 @@ loginBtn.addEventListener('click', () => {
     container.classList.remove('active');
 });
 
-function loader() {
-    document.querySelector('.loader-conteiner').classList.add('active')
-}
+let loader = document.querySelector('.loader-conteiner');
 
-function fadeOut() {
-    setTimeout(loader, 1000)
-}
-
-fadeOut();
+window.addEventListener('load', () => {
+    loader.classList.add('active');
+    setTimeout(() => {
+        loader.remove
+    }, 300);
+});
