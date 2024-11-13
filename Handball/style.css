@@ -7,12 +7,13 @@
   font-family: "Robot";
   src: url(/fonts/Roboto-Italic.ttf);
 }
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
 * {
   margin: 0;
-  font-family: "Courier New", Courier, monospace;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -127,10 +128,10 @@ sostav {
   width: 0;
   height: 2px;
   background: white;
-  transition: .3s;
+  transition: 0.3s;
 }
 
-.navbar a:hover::before  {
+.navbar a:hover::before {
   width: 100%;
 }
 
