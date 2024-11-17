@@ -1,0 +1,24 @@
+{
+  "name": "html-css-project.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rimus0cod/html-css-project.github.io.git"
+  },
+  "author": "pasha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rimus0cod/html-css-project.github.io/issues"
+  },
+  "homepage": "https://github.com/Rimus0cod/html-css-project.github.io#readme",
+  "dependencies": {
+    "express": "^4.21.1",
+    "node-static": "^0.7.11"
+  }
+}
