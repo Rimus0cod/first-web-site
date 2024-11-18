@@ -72,7 +72,7 @@
   object-fit: cover;
   pointer-events: none;
   opacity: 0;
-  transition: .3s ease;
+  transition: .6s ease;
 }
 
 .slide.active img {
