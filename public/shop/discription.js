@@ -1,16 +1,3 @@
-let loader = document.querySelector('.loader-conteiner');
-
-window.addEventListener('load', () => {
-    loader.classList.add('active');
-    setTimeout(() => {
-        loader.remove
-    }, 300);
-});
-
-
-
-
-
 const myElement1 = document.getElementById('div1');
 const myButton1 = document.getElementById('btn1');
 const myElement2 = document.getElementById('div2');
