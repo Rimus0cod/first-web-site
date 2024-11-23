@@ -41,12 +41,12 @@ body {
 }
 
 .Product {
-    width: 100vh;
-    height: 20em;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -25vh 0 0 -33vh;
+  width: 100vh;
+  height: 20em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25vh 0 0 -33vh;
 }
 
 .card {
@@ -66,8 +66,8 @@ body {
 }
 
 .card:hover {
-    background: #ffffff67;
-    box-shadow: 0px 0px 40px 5px #f9f9f9;
+  background: #ffffff67;
+  box-shadow: 0px 0px 40px 5px #f9f9f9;
 }
 
 .card-img {
@@ -95,67 +95,111 @@ body {
 }
 
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.navbar a {
+  position: relative;
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.navbar a::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: 0.3s;
+}
+
+.navbar i {
+  font-size: 20px;
+}
+
+.navbar a:hover::before {
+  width: 100%;
+}
+
+.back {
+  color: #fff;
+  transition: 0.5s ease;
+}
+
+.back:hover {
+  color: #333;
+}
+
+.back::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: 0.3s;
+}
+
+.back:hover::before {
+  width: 10%;
+}
+
+.buy {
+  margin: 0 auto;
+  display: block;
+  margin-top: 93vh;
+  width: 15vh;
+  padding: 12px;
+  text-decoration: none;
+  text-align: center;
+  background: #8175d3;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #222;
+  cursor: pointer;
+  transition: .5s ease;
+}
+
+.buy:hover {
+    background: transparent;
+    backdrop-filter: blur(100px);
+    box-shadow: 0px 0px 15px 0px #000;
+    color: #fff;
+}
+
+.loader-conteiner {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 100px;
-    background-color: transparent;
+    height: 100%;
+    background-color: #fff;
+    z-index: 99999;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    z-index: 100;
+    transition: all 0.3s ease-out;
   }
   
-  .navbar a {
-    position: relative;
-    font-size: 18px;
-    color: white;
-    font-weight: 500;
-    text-decoration: none;
-    margin-left: 40px;
-    cursor: pointer;
-  }
-  
-  .navbar a::before {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background: white;
-    transition: 0.3s;
-  }
-  
-  .navbar i {
-    font-size: 20px;
-  }
-  
-  .navbar a:hover::before {
-    width: 100%;
-  }
-
-  .back {
-    color: #fff;
-    transition: .5s ease;
-  }
-
-  .back:hover {
-    color: #333;
-  }
-
-  .back::before {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background: white;
-    transition: 0.3s;
-  }
-
-  .back:hover::before {
-    width: 10%;
+  .loader-conteiner.active {
+    opacity: 0;
+    visibility: hidden;
   }
