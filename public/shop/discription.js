@@ -58,3 +58,36 @@ myButton6.addEventListener('click', () => {
         myElement6.classList.add('active');
     }
 });
+
+
+// Получаем все кнопки с классами "add" и "added"
+const addButtons = document.querySelectorAll(".add");
+const addedButtons = document.querySelectorAll(".added");
+
+// Обрабатываем каждую кнопку с классом "add"
+addButtons.forEach((button, index) => {
+    button.addEventListener("click", () => {
+        // Добавляем/удаляем класс "active" текущей кнопке
+        button.classList.toggle("active");
+
+        // Добавляем/удаляем класс "active" соответствующей кнопке "added"
+        const addedButton = addedButtons[index];
+        if (addedButton) {
+            addedButton.classList.toggle("active");
+        }
+    });
+});
+
+// Обрабатываем каждую кнопку с классом "added"
+addedButtons.forEach((button, index) => {
+    button.addEventListener("click", () => {
+        // Убираем класс "active" у текущей кнопки "added"
+        button.classList.remove("active");
+
+        // Убираем класс "active" у соответствующей кнопки "add"
+        const addButton = addButtons[index];
+        if (addButton) {
+            addButton.classList.remove("active");
+        }
+    });
+});

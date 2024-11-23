@@ -159,24 +159,6 @@ body {
   font-weight: bold;
 }
 
-.add-to-cart {
-  background-color: rgb(0, 117, 0);
-  border: none;
-  color: white;
-  border-radius: 5px;
-  padding: 8px 20px;
-  cursor: pointer;
-  transition: 0.5s;
-  margin: 1vh;
-}
-
-.add-to-cart:hover {
-  background-color: rgb(255, 255, 255);
-  color: rgba(0, 0, 0, 1);
-  border: rgb(108, 119, 179, 1);
-}
-
-
 .loader-conteiner {
   position: fixed;
   top: 0;
@@ -214,3 +196,4 @@ body {
   background: #f9f9f9;
   color: #000;
 }
+
