@@ -37,6 +37,7 @@ form .row {
 }
 
 .column .title {
+    position: relative;
     font-size: 20px;
     color: #333;
     text-transform: uppercases;
@@ -92,4 +93,22 @@ form .btn:hover {
     height: 34px;
     margin-top: 5px;
     filter: drop-shadow(0 0 1px #000);
+}
+
+
+i {
+    position: absolute;
+    font-size: 15px;
+    padding: 5px;
+    margin-left: -3vh;
+    margin-top: -3vh;
+    border: none;
+    outline: none;
+    background: #8175d3;
+    border-radius: 3px;
+    transition: .7s ease;
+}
+
+i:hover {
+    background: #fff;
 }
